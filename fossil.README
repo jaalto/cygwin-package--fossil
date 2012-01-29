@@ -15,7 +15,7 @@ See http://www.fossil-scm.org/index.html/doc/trunk/www/quickstart.wiki
 
 Runtime requirements:
   cygwin
-  openssl
+  libopenssl098
 
 Build requirements:
   cygwin
