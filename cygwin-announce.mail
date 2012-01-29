@@ -1,0 +1,60 @@
+To: cygwin-announce@cygwin.com
+Subject: Updated: fossil 20111213135356-1 -- DVCS with built-in wiki, http server and issue tracker
+--text follows this line--
+
+PACKAGE DESCRIPTION
+===================
+
+Homepage:
+License : GPL
+
+A single binary distributed version control which utilizes
+SQLite database backend for storage metadata. The self contained
+binary includes also issue tracker, wiki enginea and built in web
+server to serve everything; including the repositories. Fossil uses
+plain HTTP, with proxy support, for all network communications.
+Autosync feature helps to keep repositories and ther distributed issue
+trackers up to date without need for separate merging.
+
+CHANGES SINCE LAST RELEASE
+==========================
+
+None.
+
+INSTALL OR UPGRADE NOTES
+========================
+
+Stardard install.
+
+CYGWIN INSTALLATION INFORMATION
+===============================
+
+To install this package, click on the "Install Cygwin now" link on the
+<http://cygwin.com/> web page. This downloads setup.exe to your
+system. Then, run setup and answer all of the questions. You'll find
+the package listed in the "All" category. After installation, read the
+documentation at directories:
+
+    /usr/share/doc/<package-version>/*
+    /usr/share/doc/Cygwin/<package-version>.README
+
+If you have questions or comments, please send them to the Cygwin
+mailing list at <cygwin@cygwin.com>.
+
+CYGWIN-ANNOUNCE UNSUBSCRIBE INFO
+================================
+
+This message has been sent to cygwin-announce list.
+
+If you want to unsubscribe from the mailing list, look at the
+"List-Unsubscribe: " tag in the email header of this message. Send
+email to the address specified there. It will be in the format:
+
+    cygwin-announce-unsubscribe-you=yourdomain.com@cygwin.com
+
+More information on unsubscribing can be found:
+
+    http://sources.redhat.com/lists.html#unsubscribe-simple
+
+Please read *all* of the information on unsubscribing that is available
+starting at the above URL.

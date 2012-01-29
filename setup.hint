@@ -1,0 +1,10 @@
+sdesc: "DVCS with built-in wiki, http server and issue tracker"
+ldesc: "A single binary distributed version control which utilizes
+SQLite database backend for storage metadata. The self contained
+binary includes also issue tracker, wiki enginea and built in web
+server to serve everything; including the repositories. Fossil uses
+plain HTTP, with proxy support, for all network communications.
+Autosync feature helps to keep repositories and ther distributed issue
+trackers up to date without need for separate merging."
+category: Devel
+requires: openssl
