@@ -15,9 +15,11 @@ See http://www.fossil-scm.org/index.html/doc/trunk/www/quickstart.wiki
 
 Runtime requirements:
   libopenssl098
+  zlib0
 
 Build requirements:
   openssl-devel
+  zlib-devel
 
 Canonical homepage:
   http://freshmeat.net/projects/fossil
