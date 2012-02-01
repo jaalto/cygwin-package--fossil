@@ -14,6 +14,7 @@ trackers up to date without need for separate merging.
 See http://www.fossil-scm.org/index.html/doc/trunk/www/quickstart.wiki
 
 Runtime requirements:
+  libgcc1
   libopenssl098
   zlib0
 
