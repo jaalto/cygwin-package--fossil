@@ -24,7 +24,7 @@ None.
 INSTALL OR UPGRADE NOTES
 ========================
 
-Stardard install.
+See homepage for release notes.
 
 CYGWIN INSTALLATION INFORMATION
 ===============================
@@ -35,7 +35,7 @@ system. Then, run setup and answer all of the questions. You'll find
 the package listed in the "All" category. After installation, read the
 documentation at directories:
 
-    /usr/share/doc/<package-version>/*
+    /usr/share/doc/<package>/*
     /usr/share/doc/Cygwin/<package-version>.README
 
 If you have questions or comments, please send them to the Cygwin
