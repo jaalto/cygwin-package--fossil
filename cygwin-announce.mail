@@ -1,5 +1,5 @@
 To: cygwin-announce@cygwin.com
-Subject: Updated: fossil 20120808112557-1 -- DVCS with built-in wiki, http server and issue tracker
+Subject: Updated: fossil 20130216000435-1 -- DVCS with built-in wiki, http server and issue tracker
 --text follows this line--
 
 PACKAGE DESCRIPTION
@@ -19,12 +19,12 @@ trackers up to date without need for separate merging.
 CHANGES SINCE LAST RELEASE
 ==========================
 
-None.
+See http://www.fossil-scm.org/index.html/timeline
 
 INSTALL OR UPGRADE NOTES
 ========================
 
-See homepage for release notes.
+Standard install.
 
 CYGWIN INSTALLATION INFORMATION
 ===============================

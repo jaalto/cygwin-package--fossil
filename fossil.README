@@ -15,7 +15,7 @@ See http://www.fossil-scm.org/index.html/doc/trunk/www/quickstart.wiki
 
 Runtime requirements:
   libgcc1
-  libopenssl098
+  libopenssl100
   zlib0
 
 Build requirements:
@@ -42,8 +42,8 @@ Forum / Wiki:
 IRC channel:
 
 Upstream contact:
-  Maintainer: <drh@sqlite.org>
-  Bugs:
+  Maintainer: D. Richard Hipp <drh@sqlite.org>
+  Bugs: http://www.fossil-scm.org/index.html/reportlist
 
 License:
   BSD-2-Clause (aka FreeBSD)
@@ -69,6 +69,9 @@ Files included in the binary distribution:
 
 Port Notes:
 
+----- version 20130216000435-1 -----
+- New upstream release 2013-03-05 Jari Aalto
+
 ----- version 20120808112557-1 -----
 - New upstream release 2012-09-15 Jari Aalto
 
@@ -76,4 +79,4 @@ Port Notes:
 - Initial release 2012-01-28 Jari Aalto
 
 Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
-Copyright (C) 2012 Jari Aalto; Licensed under GPL v2 or later
+Copyright (C) 2012-2013 Jari Aalto; Licensed under GPL v2 or later
