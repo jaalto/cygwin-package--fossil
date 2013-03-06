@@ -6,7 +6,7 @@ PACKAGE DESCRIPTION
 ===================
 
 Homepage: http://freecode.com/projects/fossil
-License : GPL
+License : BSD-2-Clause
 
 A single binary distributed version control which utilizes
 SQLite database backend for storage metadata. The self contained
