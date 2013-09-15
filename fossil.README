@@ -14,7 +14,6 @@ trackers up to date without need for separate merging.
 See http://www.fossil-scm.org/index.html/doc/trunk/www/quickstart.wiki
 
 Runtime requirements:
-  libgcc1
   libopenssl100
   zlib0
 
@@ -69,6 +68,9 @@ Files included in the binary distribution:
 
 Port Notes:
 
+----- version 20130911114349-1 -----
+- New upstream release 2013-09-15 Jari Aalto
+
 ----- version 20130216000435-1 -----
 - New upstream release 2013-03-05 Jari Aalto
 
@@ -78,5 +80,5 @@ Port Notes:
 ----- version 20111213135356-1 -----
 - Initial release 2012-01-28 Jari Aalto
 
-Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Cygwin port maintained by: user <jari.aalto@cante.net>
 Copyright (C) 2012-2013 Jari Aalto; Licensed under GPL v2 or later
