@@ -1,3 +1,3 @@
 tag1: fossil
 #  http://packages.debian.org/unstable/fossil pregexp:tar.gz file:fossil_1.21.orig.tar.gz new: x:
-   http://www.fossil-scm.org/download.html pregexp:tar.gz file:fossil-src-20111213135356.tar.gz new: x:
+   http://fossil-scm.org/download.html pregexp:tar.gz file:fossil-src-20111213135356.tar.gz new: x:
