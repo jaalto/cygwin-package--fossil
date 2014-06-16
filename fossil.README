@@ -67,6 +67,13 @@ Files included in the binary distribution:
 ------------------------------------------
 
 Port Notes:
+- Configure: --disable-internal-sqlite
+
+----- version 20140612172556-2 -----
+- New release 2014-06-16 Jari Aalto
+- Configure with Cygwin sqlite using --disable-internal-sqlite
+  Thanks to Jan Nijtmans <jan dot nijtmans at gmail dot com>
+  see https://cygwin.com/ml/cygwin/2014-06/msg00166.html>
 
 ----- version 20140612172556-1 -----
 - New upstream release 2014-06-13 Jari Aalto
