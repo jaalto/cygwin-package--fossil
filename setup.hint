@@ -7,4 +7,4 @@ plain HTTP, with proxy support, for all network communications.
 Autosync feature helps to keep repositories and ther distributed issue
 trackers up to date without need for separate merging."
 category: Devel
-requires: libopenssl100 zlib0
+requires: libopenssl100 zlib0 libsqlite3_0

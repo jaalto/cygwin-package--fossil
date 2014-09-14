@@ -16,8 +16,10 @@ See http://www.fossil-scm.org/index.html/doc/trunk/www/quickstart.wiki
 Runtime requirements:
   libopenssl100
   zlib0
+  libsqlite3_0
 
 Build requirements:
+  libsqlite3-devel
   openssl-devel
   zlib-devel
 
