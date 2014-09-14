@@ -1,5 +1,5 @@
 To: cygwin-announce@cygwin.com
-Subject: Updated: fossil 20140612172556-2 -- DVCS with built-in wiki, http server and issue tracker
+Subject: Updated: fossil 20140612172556-3 -- DVCS with built-in wiki, http server and issue tracker
 --text follows this line--
 
 PACKAGE DESCRIPTION
@@ -19,8 +19,8 @@ trackers up to date without need for separate merging.
 CHANGES SINCE LAST RELEASE
 ==========================
 
-Cygwin: configure with --disable-internal-sqlite to fix DOS paths.
-(Thanks: Jan Nijtmans <jan dot nijtmans at gmail dot com>)
+Cygwin: add sqlite dependency to setup.hint
+(Thanks: Scott Robison scott casaderobison com)
 
 See http://www.fossil-scm.org/index.html/timeline
 
