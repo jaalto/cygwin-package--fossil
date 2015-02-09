@@ -1,5 +1,5 @@
 To: cygwin-announce@cygwin.com
-Subject: Updated: fossil 20140612172556-3 -- DVCS with built-in wiki, http server and issue tracker
+Subject: Updated: fossil 20150209+1.31+04e6a82ed7-1 -- DVCS with built-in wiki, http server and issue tracker
 --text follows this line--
 
 PACKAGE DESCRIPTION
@@ -19,8 +19,10 @@ trackers up to date without need for separate merging.
 CHANGES SINCE LAST RELEASE
 ==========================
 
-Cygwin: add sqlite dependency to setup.hint
-(Thanks: Scott Robison scott casaderobison com)
+- Contains fix for Cygwin DLL 1.7.34 Group execute permission regression
+- https://cygwin.com/ml/cygwin/2015-02/msg00100.html
+- https://cygwin.com/ml/cygwin/2015-02/threads.html#00149
+- https://cygwin.com/ml/cygwin/2015-02/threads.html#00117
 
 See http://www.fossil-scm.org/index.html/timeline
 

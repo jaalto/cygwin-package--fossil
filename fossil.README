@@ -74,6 +74,13 @@ Files included in the binary distribution:
 Port Notes:
 - Configure: --disable-internal-sqlite
 
+----- version 20150209+1.31+04e6a82ed7-1 -----
+- New upstream release 2015-02-09 Jari Aalto
+- Contains fix for Cygwin DLL 1.7.34 Group execute permission regression
+- https://cygwin.com/ml/cygwin/2015-02/msg00100.html
+- https://cygwin.com/ml/cygwin/2015-02/threads.html#00149
+- https://cygwin.com/ml/cygwin/2015-02/threads.html#00117
+
 ----- version 20140612172556-3 -----
 - Add sqlite to setup.hint::Depends
 - Thanks to Scott Robison <scott@casaderobison.com>
@@ -103,4 +110,4 @@ Port Notes:
 - Initial release 2012-01-28 Jari Aalto
 
 Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
-Copyright (C) 2012-2014 Jari Aalto; Licensed under GPL v2 or later
+Copyright (C) 2012-2015 Jari Aalto; Licensed under GPL v2 or later
