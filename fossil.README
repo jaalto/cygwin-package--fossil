@@ -77,7 +77,7 @@ Port Notes:
 - Configure: --disable-internal-sqlite
 
 ----- version 20150209+1.31+04e6a82ed7-2 -----
-- New upstream release 2015-02-09 Jari Aalto (same as *-1)
+- New upstream release 2015-02-11 Jari Aalto
 - With updated setup.hint
 
 ----- version 20150209+1.31+04e6a82ed7-1 -----
