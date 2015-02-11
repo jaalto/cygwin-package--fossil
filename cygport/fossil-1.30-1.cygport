@@ -1,0 +1,43 @@
+# Date: Wed, 11 Feb 2015 10:23:34 +0100
+# From: Jan Nijtmans <jan.nijtmans@gmail.com>
+
+HOMEPAGE="http://www.sqlite.org/"
+
+ORIG_PV="20150119112900"
+SRC_DIR="fossil-src-${ORIG_PV}"
+SRC_URI="http://www.fossil-scm.org/download/${SRC_DIR}.tar.gz"
+
+EXEPKG="${PN}"
+PKG_NAMES="$EXEPKG"
+
+DESCRIPTION=$(cat <<LDESCDOC
+DVCS with built-in wiki, http server and issue tracker.
+LDESCDOC
+)
+
+eval "${EXEPKG}_CONTENTS='usr/bin/*.exe'"
+eval "${EXEPKG}_CATEGORY='Devel'"
+eval "${EXEPKG}_SUMMARY='DVCS with built-in wiki, http server and issue tracker'"
+
+DISTCLEANFILES="sqlite3.pc"
+NO_AUTOHEADER=1
+
+CPPFLAGS="$CPPFLAGS \
+	-DUSE_PREAD \
+	-DFOSSIL_OMIT_LOAD_AVERAGE=1 \
+	-DUSE_SYSTEM_SQLITE=1"
+
+src_compile() {
+	cd ${S}
+	cp -r * ${B}
+	rm ${B}/src/sqlite3.c
+	rm ${B}/src/sqlite3.h
+	cd ${B}
+	cygmake -f Makefile.classic CPPFLAGS=$CPPCFLAGS
+}
+
+src_install() {
+	cd ${B}
+	mkdir -p ../inst/usr/bin
+	cp fossil.exe ../inst/usr/bin
+}
