@@ -76,6 +76,9 @@ Files included in the binary distribution:
 Port Notes:
 - Configure: --disable-internal-sqlite
 
+----- version 20150523+1.33-1 -----
+- New upstream release 2015-05-28 Jari Aalto
+
 ----- version 20150209+1.31+04e6a82ed7-2 -----
 - New upstream release 2015-02-11 Jari Aalto
 - With updated setup.hint
