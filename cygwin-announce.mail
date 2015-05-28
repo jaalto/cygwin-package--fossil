@@ -5,7 +5,7 @@ Subject: Updated: fossil 20150523+1.33-1 -- DVCS with built-in wiki, http server
 PACKAGE DESCRIPTION
 ===================
 
-Homepage: http://freecode.com/projects/fossil
+Homepage: https://www.fossil-scm.org
 License : BSD-2-Clause
 
 A single binary distributed version control which utilizes
@@ -18,11 +18,6 @@ trackers up to date without need for separate merging.
 
 CHANGES SINCE LAST RELEASE
 ==========================
-
-- Contains fix for Cygwin DLL 1.7.34 Group execute permission regression
-- https://cygwin.com/ml/cygwin/2015-02/msg00100.html
-- https://cygwin.com/ml/cygwin/2015-02/threads.html#00149
-- https://cygwin.com/ml/cygwin/2015-02/threads.html#00117
 
 See http://www.fossil-scm.org/index.html/timeline
 
