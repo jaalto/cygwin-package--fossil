@@ -76,6 +76,9 @@ Files included in the binary distribution:
 Port Notes:
 - Configure: --disable-internal-sqlite
 
+----- version 2.9-1 -----
+- New upstream release 2019-07-30 Jari Aalto
+
 ----- version 2.3-1 -----
 - New upstream release 2017-09-25 Jari Aalto
 
@@ -122,4 +125,4 @@ Port Notes:
 - Initial release 2012-01-28 Jari Aalto
 
 Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
-Copyright (C) 2012-2017 Jari Aalto; Licensed under GPL v2 or later
+Copyright (C) 2012-2019 Jari Aalto; Licensed under GPL v2 or later
