@@ -1,3 +1,5 @@
 tag1: fossil
-#  http://packages.debian.org/unstable/fossil pregexp:tar.gz file:fossil_1.21.orig.tar.gz new: x:
-   http://fossil-scm.org/download.html pregexp:tar.gz file:fossil-src-20111213135356.tar.gz new: x:
+# Old, not up to date
+# http://packages.debian.org/unstable/fossil pregexp:tar.gz file:fossil_1.21.orig.tar.gz new: x:
+   print: A generated non-URL page. ** MUST download manually **
+   http://fossil-scm.org/fossil/uv/download.html pregexp:src.*tar.gz file:fossil-src-2.9.tar.gz
