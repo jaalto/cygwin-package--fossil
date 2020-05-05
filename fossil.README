@@ -76,6 +76,11 @@ Files included in the binary distribution:
 Port Notes:
 - Configure: --disable-internal-sqlite
 
+----- version 20200427+2.11+1833-1 -----
+- New upstream release 2020-05-05 Jari Aalto
+- Original tar file
+  https://fossil-scm.org/fossil/uv/fossil-src-2.11-beta-202004271833.tar.gz
+
 ----- version 2.9-1 -----
 - New upstream release 2019-07-30 Jari Aalto
 
@@ -125,4 +130,4 @@ Port Notes:
 - Initial release 2012-01-28 Jari Aalto
 
 Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
-Copyright (C) 2012-2019 Jari Aalto; Licensed under GPL v2 or later
+Copyright (C) 2012-2020 Jari Aalto; Licensed under GPL v2 or later
