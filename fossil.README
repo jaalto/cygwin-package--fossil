@@ -26,15 +26,13 @@ Build requirements:
   libreadline-devel
 
 Canonical homepage:
-  http://freshmeat.net/projects/fossil
   http://www.fossil-scm.org
   http://packages.debian.org/fossil
 
 Canonical download:
   See above
   Latest source code:
-  http://fossil-scm.org/xfer/doc/tip/www/build.wiki
-  http://www.fossil-scm.org/index.html/timeline?y=ci (click rev => download)
+  https://fossil-scm.org/home/uv/download.html
 
 Version control repository:
 
@@ -43,7 +41,7 @@ Mailing list:
   http://www.mail-archive.com/fossil-users@lists.fossil-scm.org/
 
 Forum / Wiki:
-  http://www.fossil-scm.org/fossil/wiki
+  https://fossil-scm.org/home/doc/trunk/www/index.wiki
 
 IRC channel:
 
